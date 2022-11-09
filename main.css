@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family:'Josefin Sans', sans-serif;
     
+    
 }
 
 .background
@@ -15,7 +16,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     
 }
 
@@ -88,7 +89,7 @@ nav ul li a:hover
 h4
 {
     color: lightgrey;
-    font-size: 30px;  
+    font-size: 25px;  
     cursor: pointer;
     letter-spacing: 3px; 
     text-shadow: 1px 1px 5px ;
@@ -97,7 +98,7 @@ h4
 h1
 {
     color: lightgrey;
-    font-size: 70px;  
+    font-size: 60px;  
     letter-spacing: 3px; 
     padding: 20px 0 25px;
     text-shadow: 1px 1px 15px ;
@@ -115,7 +116,7 @@ h1:hover
 h3
 {
     color: lightgrey;
-    font-size: 30px;  
+    font-size: 25px;  
     letter-spacing: 3px; 
     text-shadow: 1px 1px 5px ;
     margin-bottom: 25px
@@ -163,3 +164,9 @@ h3
     border: 1px solid black;
 }
 
+p
+{
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+}
