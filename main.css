@@ -3,7 +3,7 @@
 {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family:'Josefin Sans', sans-serif;
     
     
@@ -11,13 +11,12 @@
 
 .background
 {
-    background-color: gray;
     background-image:url(210105.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100%;
     width: 100%;
-    box-sizing: border-box;
 }
 
 nav
@@ -73,8 +72,6 @@ nav ul li a:hover
     color: #09ff00;
     transition: 0.3s;
     text-shadow: 0px 15px 15px rgba(0, 0, 0, 0.453);
-
-
 } 
 
 .main
@@ -104,7 +101,6 @@ h1
     text-shadow: 1px 1px 15px ;
     box-sizing: border-box;
     width: 524px;
-    
 }
 
 h1:hover
@@ -140,7 +136,7 @@ h3
 .Container-btn form input:first-child
 {
     display: inline-block;
-    width: 400px;
+    width: 253px;
     padding: 15px 130px 20px 15px;
     border-radius: 30px;
     outline: none
@@ -170,5 +166,13 @@ p
 {
     color: aqua;
     font-size: 30px;
-    text-align: center;
+    text-align: justify;
 }
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+    
